@@ -1,0 +1,29 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="App7.View.Binding"
+    xmlns:vm="using:App7.Model"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App7.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid x:ConnectionId='2' x:Name="gridView" HorizontalAlignment="Left" Height="315" VerticalAlignment="Top" Width="480">
+            <TextBlock x:ConnectionId='3' x:Name="textBlock" Height="20" TextWrapping="Wrap" Text="Apellido :" Width="75" HorizontalAlignment="Left" Margin="35,70,0,0" VerticalAlignment="Top" d:LayoutOverrides="Width, Height"/>
+            <TextBlock x:ConnectionId='4' x:Name="textBlock_Copy" Height="20" TextWrapping="Wrap" Text="Nombre :" Width="75" HorizontalAlignment="Left" Margin="35,20,0,0" VerticalAlignment="Top" d:LayoutOverrides="Width, Height"/>
+            <TextBlock x:ConnectionId='5' x:Name="textBlock_Copy1" Height="20" TextWrapping="Wrap" Text="Edad : " Width="75" HorizontalAlignment="Left" Margin="35,120,0,0" VerticalAlignment="Top" d:LayoutOverrides="Width, Height"/>
+            <TextBox x:ConnectionId='6' x:Name="txtNombre"                                              Height="25" Margin="115,16,160,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
+            <TextBox x:ConnectionId='7' x:Name="txtEdad"                                            Height="25" Margin="115,112,160,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
+            <TextBox x:ConnectionId='8' x:Name="txtApellido"                                                 Height="25" Margin="115,65,160,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBlock x:ConnectionId='9' x:Name="textBlock_Copy2" Height="20" TextWrapping="Wrap" Text="Apellido :" Width="75" HorizontalAlignment="Left" Margin="30,0,0,85" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height"/>
+            <TextBlock x:ConnectionId='10' x:Name="textBlock_Copy3" Height="20" TextWrapping="Wrap" Text="Nombre :" Width="75" HorizontalAlignment="Left" Margin="30,0,0,135" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height"/>
+            <TextBlock x:ConnectionId='11' x:Name="textBlock_Copy4" Height="20" TextWrapping="Wrap" Text="Edad : " Width="75" HorizontalAlignment="Left" Margin="30,0,0,35" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height"/>
+            <TextBlock x:ConnectionId='12' x:Name="lblApellido"                                                  Height="20" TextWrapping="Wrap"  Width="75" HorizontalAlignment="Left" Margin="115,0,0,85" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height"/>
+            <TextBlock x:ConnectionId='13' x:Name="lblNombre"                                                Height="20" TextWrapping="Wrap"  Width="75" HorizontalAlignment="Left" Margin="115,0,0,135" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height"/>
+            <TextBlock x:ConnectionId='14' x:Name="lblEdad"                                              Height="20" TextWrapping="Wrap"  Width="75" HorizontalAlignment="Left" Margin="115,0,0,35" VerticalAlignment="Bottom" d:LayoutOverrides="Width, Height"/>
+        </Grid>
+
+    </Grid>
+</Page>
+
