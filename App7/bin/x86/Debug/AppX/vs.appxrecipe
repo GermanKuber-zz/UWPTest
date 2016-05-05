@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>893c4133-e527-4154-9faf-e90565f01f30</PackageIdentityName>
-    <IntermediateOutputPath>c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\Proyectos\UWP\Test\App7\obj\x86\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>D204D4A303FA7B0C82C990F821281D88CC83C19560703260223904E86E9C41EE</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>893c4133-e527-4154-9faf-e90565f01f30_1.0.0.0_x86__m9165rtwrnbzr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>893c4133-e527-4154-9faf-e90565f01f30_m9165rtwrnbzr!App</RegisteredUserModeAppID>
@@ -19,16 +19,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="E:\Proyectos\UWP\Test\App7\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-04T21:22:25.050</Modified>
+      <Modified>2016-05-05T19:07:16.823</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\bin\x86\Debug\TestUWPSolution.Common.exe">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\bin\x86\Debug\TestUWPSolution.Common.exe">
       <PackagePath>entrypoint\TestUWPSolution.Common.exe</PackagePath>
-      <Modified>2016-05-04T21:22:24.162</Modified>
+      <Modified>2016-05-05T19:07:16.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\GermanKuber\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -442,59 +442,59 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-23T02:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-05-04T19:59:46.059</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-21T00:22:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T00:22:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T00:22:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T00:22:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T00:22:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T00:22:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T00:22:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\bin\x86\Debug\TestUWPSolution.Common.xr.xml">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\bin\x86\Debug\TestUWPSolution.Common.xr.xml">
       <PackagePath>TestUWPSolution.Common.xr.xml</PackagePath>
-      <Modified>2016-05-04T21:22:06.562</Modified>
+      <Modified>2016-05-05T19:02:51.011</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-04-26T18:39:49.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-05-04T21:22:24.889</Modified>
+      <Modified>2016-05-05T19:07:16.732</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\bin\x86\Debug\Core\TestUWPSolution.Common.exe">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\bin\x86\Debug\Core\TestUWPSolution.Common.exe">
       <PackagePath>TestUWPSolution.Common.exe</PackagePath>
-      <Modified>2016-05-04T21:22:25.048</Modified>
+      <Modified>2016-05-05T19:07:16.822</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

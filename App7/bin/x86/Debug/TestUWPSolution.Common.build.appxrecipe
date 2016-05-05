@@ -9,16 +9,16 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>893c4133-e527-4154-9faf-e90565f01f30</PackageIdentityName>
-    <IntermediateOutputPath>c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\Proyectos\UWP\Test\App7\obj\x86\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="E:\Proyectos\UWP\Test\App7\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\bin\x86\Debug\TestUWPSolution.Common.exe">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\bin\x86\Debug\TestUWPSolution.Common.exe">
       <PackagePath>entrypoint\TestUWPSolution.Common.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\GermanKuber\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -330,46 +330,46 @@
     <AppxPackagedFile Include="C:\Users\GermanKuber\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\bin\x86\Debug\TestUWPSolution.Common.xr.xml">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\bin\x86\Debug\TestUWPSolution.Common.xr.xml">
       <PackagePath>TestUWPSolution.Common.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\germankuber\documents\visual studio 2015\Projects\App7\App7\bin\x86\Debug\Core\TestUWPSolution.Common.exe">
+    <AppxPackagedFile Include="E:\Proyectos\UWP\Test\App7\bin\x86\Debug\Core\TestUWPSolution.Common.exe">
       <PackagePath>TestUWPSolution.Common.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

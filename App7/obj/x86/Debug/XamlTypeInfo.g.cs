@@ -132,7 +132,7 @@ namespace TestUWPSolution.Common.TestUWPSolution_Common_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[11];
+            _typeNameTable = new string[12];
             _typeNameTable[0] = "App7.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -142,10 +142,11 @@ namespace TestUWPSolution.Common.TestUWPSolution_Common_XamlTypeInfo
             _typeNameTable[6] = "System.Collections.ObjectModel.ObservableCollection`1<App7.BindingTest>";
             _typeNameTable[7] = "System.Collections.ObjectModel.Collection`1<App7.BindingTest>";
             _typeNameTable[8] = "String";
-            _typeNameTable[9] = "App7.View.Binding";
+            _typeNameTable[9] = "TestUWPSolution.Common.View.BindingPage";
             _typeNameTable[10] = "App7.Model.BindingModel";
+            _typeNameTable[11] = "TestUWPSolution.Common.View.TemplateView";
 
-            _typeTable = new global::System.Type[11];
+            _typeTable = new global::System.Type[12];
             _typeTable[0] = typeof(global::App7.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -155,8 +156,9 @@ namespace TestUWPSolution.Common.TestUWPSolution_Common_XamlTypeInfo
             _typeTable[6] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::App7.BindingTest>);
             _typeTable[7] = typeof(global::System.Collections.ObjectModel.Collection<global::App7.BindingTest>);
             _typeTable[8] = typeof(global::System.String);
-            _typeTable[9] = typeof(global::App7.View.Binding);
+            _typeTable[9] = typeof(global::TestUWPSolution.Common.View.BindingPage);
             _typeTable[10] = typeof(global::App7.Model.BindingModel);
+            _typeTable[11] = typeof(global::TestUWPSolution.Common.View.TemplateView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -195,8 +197,9 @@ namespace TestUWPSolution.Common.TestUWPSolution_Common_XamlTypeInfo
         private object Activate_3_BindingTest() { return new global::App7.BindingTest(); }
         private object Activate_6_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::App7.BindingTest>(); }
         private object Activate_7_Collection() { return new global::System.Collections.ObjectModel.Collection<global::App7.BindingTest>(); }
-        private object Activate_9_Binding() { return new global::App7.View.Binding(); }
+        private object Activate_9_BindingPage() { return new global::TestUWPSolution.Common.View.BindingPage(); }
         private object Activate_10_BindingModel() { return new global::App7.Model.BindingModel(); }
+        private object Activate_11_TemplateView() { return new global::TestUWPSolution.Common.View.TemplateView(); }
         private void VectorAdd_6_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::App7.BindingTest>)instance;
@@ -273,9 +276,9 @@ namespace TestUWPSolution.Common.TestUWPSolution_Common_XamlTypeInfo
                 xamlType = new global::TestUWPSolution.Common.TestUWPSolution_Common_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 9:   //  App7.View.Binding
+            case 9:   //  TestUWPSolution.Common.View.BindingPage
                 userType = new global::TestUWPSolution.Common.TestUWPSolution_Common_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_Binding;
+                userType.Activator = Activate_9_BindingPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
@@ -284,6 +287,13 @@ namespace TestUWPSolution.Common.TestUWPSolution_Common_XamlTypeInfo
             case 10:   //  App7.Model.BindingModel
                 userType = new global::TestUWPSolution.Common.TestUWPSolution_Common_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("App7.Utiles.BindableBase"));
                 userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 11:   //  TestUWPSolution.Common.View.TemplateView
+                userType = new global::TestUWPSolution.Common.TestUWPSolution_Common_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_TemplateView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -322,14 +332,14 @@ namespace TestUWPSolution.Common.TestUWPSolution_Common_XamlTypeInfo
             var that = (global::App7.BindingTest)instance;
             that.Dato1 = (global::System.String)Value;
         }
-        private object get_3_Binding_ViewModel(object instance)
+        private object get_3_BindingPage_ViewModel(object instance)
         {
-            var that = (global::App7.View.Binding)instance;
+            var that = (global::TestUWPSolution.Common.View.BindingPage)instance;
             return that.ViewModel;
         }
-        private void set_3_Binding_ViewModel(object instance, object Value)
+        private void set_3_BindingPage_ViewModel(object instance, object Value)
         {
-            var that = (global::App7.View.Binding)instance;
+            var that = (global::TestUWPSolution.Common.View.BindingPage)instance;
             that.ViewModel = (global::App7.Model.BindingModel)Value;
         }
 
@@ -358,11 +368,11 @@ namespace TestUWPSolution.Common.TestUWPSolution_Common_XamlTypeInfo
                 xamlMember.Getter = get_2_BindingTest_Dato1;
                 xamlMember.Setter = set_2_BindingTest_Dato1;
                 break;
-            case "App7.View.Binding.ViewModel":
-                userType = (global::TestUWPSolution.Common.TestUWPSolution_Common_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App7.View.Binding");
+            case "TestUWPSolution.Common.View.BindingPage.ViewModel":
+                userType = (global::TestUWPSolution.Common.TestUWPSolution_Common_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TestUWPSolution.Common.View.BindingPage");
                 xamlMember = new global::TestUWPSolution.Common.TestUWPSolution_Common_XamlTypeInfo.XamlMember(this, "ViewModel", "App7.Model.BindingModel");
-                xamlMember.Getter = get_3_Binding_ViewModel;
-                xamlMember.Setter = set_3_Binding_ViewModel;
+                xamlMember.Getter = get_3_BindingPage_ViewModel;
+                xamlMember.Setter = set_3_BindingPage_ViewModel;
                 break;
             }
             return xamlMember;

@@ -101,8 +101,11 @@
     <Compile Include="Model\BindingModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utiles\BindableBase.cs" />
-    <Compile Include="View\Binding.xaml.cs">
-      <DependentUpon>Binding.xaml</DependentUpon>
+    <Compile Include="View\BindingPage.xaml.cs">
+      <DependentUpon>BindingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TemplateView.xaml.cs">
+      <DependentUpon>TemplateView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -130,7 +133,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Binding.xaml">
+    <Page Include="View\BindingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TemplateView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

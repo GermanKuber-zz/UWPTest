@@ -9,6 +9,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading;
 using System.Threading.Tasks;
+using TestUWPSolution.Common.View;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -69,8 +70,23 @@ namespace App7
 
         private void button_Click_1(object sender, RoutedEventArgs e)
         {
-            ListViewModel.Add(new BindingTest { Dato1 = txtDatos3.Text });
-            txtDatos3.Text = "";
+        
+        }
+
+        private void RadioButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBinding_Click(object sender, RoutedEventArgs e)
+        {
+            ContentFrame.Navigate(typeof(TestUWPSolution.Common.View.BindingPage));
+
+        }
+
+        private void BtnPrimera_Click(object sender, RoutedEventArgs e)
+        {
+            ContentFrame.Navigate(typeof(TemplateView));
         }
     }
 
